@@ -1,0 +1,148 @@
+/* Layout */
+.container {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0f172a, #1e293b);
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background: #334155;
+}
+
+.sidebar .active {
+  background: #3b82f6;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  padding: 20px;
+  background: #f1f5f9;
+}
+
+/* Top bar */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addBtn {
+  background: #3b82f6;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  opacity: 0.9;
+}
+
+/* Controls (Search + Filter) */
+.controls {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.controls input {
+  padding: 8px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.controls select {
+  padding: 8px;
+  border-radius: 6px;
+}
+
+/* Task Card */
+.card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  color: #555;
+}
+
+/* Status badges */
+.pending {
+  display: inline-block;
+  background: #dbeafe;
+  color: #2563eb;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.done {
+  display: inline-block;
+  background: #dcfce7;
+  color: #16a34a;
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Buttons */
+.btns {
+  margin-top: 10px;
+}
+
+.btns button {
+  padding: 6px 12px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btns button:first-child {
+  background: #16a34a;
+  color: white;
+}
+
+.btns .delete {
+  background: #ef4444;
+  color: white;
+}
+
+.btns button:hover {
+  opacity: 0.8;
+}

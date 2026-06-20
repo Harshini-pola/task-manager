@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background: #0f172a;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar .active {
+  background: #3b82f6;
+  border-radius: 8px;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addBtn {
+  background: #3b82f6;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+.card {
+  background: #f8fafc;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.done {
+  color: green;
+}
+
+.pending {
+  color: orange;
+}
+
+.btns {
+  margin-top: 10px;
+}
+
+.btns button {
+  margin-right: 10px;
+  padding: 6px 10px;
+}
+
+.delete {
+  background: red;
+  color: white;
+}

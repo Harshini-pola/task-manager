@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Layout */
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0f172a, #1e293b);
+  color: white;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin: 0;
+}
+
+.sidebar p {
+  margin-top: -5px;
+  color: #94a3b8;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.sidebar li {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.sidebar .active {
+  background: #3b82f6;
+  border-radius: 5px;
+}
+
+/* Main */
+.main {
+  flex: 1;
+  background: #f1f5f9;
+  padding: 20px;
+}
+
+/* Top */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addBtn {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+/* Search */
+.search {
+  width: 60%;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+/* Card */
+.card {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+/* Right side */
+.card-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Status */
+.status {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.Pending {
+  background: #dbeafe;
+  color: blue;
+}
+
+.Completed {
+  background: #dcfce7;
+  color: green;
+}
+
+/* Priority */
+.priority {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.High {
+  background: #fee2e2;
+  color: red;
+}
+
+.Medium {
+  background: #fef3c7;
+  color: orange;
+}
+
+.Low {
+  background: #dcfce7;
+  color: green;
+}
+
+/* Buttons */
+.complete {
+  background: green;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.delete {
+  background: red;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
